@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestCases>
+
+	<login>
+		<emailaddress>navya@yopmail.com</emailaddress>
+		<mobilenumber>7780494231</mobilenumber>
+		<name>navya</name>
+		<dateofbirth>26/06/1998</dateofbirth>
+		<password>Navyasri@123</password>
+		
+	</login>
+	
+	
+</TestCases>

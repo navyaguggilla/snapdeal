@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	<listeners>
+		<!--listener class-name="com.sf.utility.RetryListenerClass" />  --> 
+		<listener class-name="com.flixmd.utility.ExecutionListener" />
+		<listener class-name="com.flixmd.utility.EmailableReport"/>
+	</listeners>
+	<test name="flixmd">
+		<classes>
+			<class name="homepage.login_snapdeal"></class>
+
+		</classes>
+	</test>
+</suite>
